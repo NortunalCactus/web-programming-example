@@ -1,1 +1,148 @@
-/* Insert your styles here */
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    border: 1px solid;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 30%;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none; /*Removing the underline from the link*/
+}
+
+a:link {
+    color: cornflowerblue
+}
+
+a:visited {
+    color: purple
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: lightgreen;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    background-image: url(media/background.jpg);
+    padding: 2% 0;
+}
+
+#header {
+    top: 0;
+    position: relative;
+}
+
+header > img {
+    vertical-align: middle;
+}
+
+header > div {
+    display: inline-block;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    left: 40%;
+    font-weight: 600;
+    color: orange;
+    font-style: italic;
+    
+}
+
+#navigationbar {
+    top: 20px;
+    position: relative;
+}
+
+.parallax {
+    background-image: url(media/parallax.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article > p {
+    margin: 2%;
+    color: yellow;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > p:first-child {
+    font-size: 100px;
+    text-align: center;
+}
+
+article > div {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #DDDD;
+    font-size: 40px;
+   
+}
+
+#pricing {
+    color: yellow;
+}
+
+.normalprice {
+    font-size: 40px;
+    color: violet;
+}
+
+.discountprice {
+    font-size: 30px;
+    color: turquoise;
+}
+
+#poster {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    color: navajowhite;
+    font-size: 25px;
+    width: 30%;
+  }
+  
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: orangered;
+}
+
+#sypnosis > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 40px;
+    text-align: center;
+}
+
