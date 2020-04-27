@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:invalid{
+            border: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="username">Username <i>Letters and punctuation only</i></label>
+        <input name="username" id="usename" pattern="[A-Za-z0-9]+" required oninvalid="alert('error!')">
+        
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
