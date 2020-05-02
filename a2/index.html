@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment 2</title>
+
+  <!-- Keep wireframe.css for debugging, add your css to style.css -->
+  <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src='../wireframe.js'></script>
+</head>
+
+<body>
+
+  <header id="header">
+    <img src="media/logo.png" alt="" width="300px" height="150px">
+    <div>Cinemax</div>
+  </header>
+
+  <nav id="navigationbar">
+    <ul>
+      <li><a href="#aboutus">ABOUT US</a></li>
+      <li><a href="#prices">PRICES</a></li>
+      <li><a href="#nowshowing">NOW SHOWING</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <!--article id='Website Under Construction'-->
+    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
+    <!--img src='../../media/website-under-construction.png' alt='Website Under Construction' /-->
+    <!--/article-->
+    <div class="anchor" id="aboutus"></div>
+    <article class="parallax">
+      <p>We are finally back!!!</p>
+      <p>The cinema has reopened after extensive improvements and renovations.</p>
+      <p>The projection and sound systems are upgraded with 3D Dolby Vision projection and Dolby Atmos sound. For more
+        info, please visit this <a href="https://www.dolby.com/us/en/cinema">website</a></p>
+      <p>There are new seats available with reclinable first class seats and standard seats.</p>
+      <div>
+        <p>Standard seat</p>
+        <img src="media/standard.jpg" alt="">
+        <p>First class seat</p>
+        <img src="media/firstclass.jpg" alt="">
+      </div>
+    </article>
+
+    <div class="anchor" id="prices"></div>
+    <article class="parallax">
+      <p>Pricing</p>
+      <div>
+        <p>The Cinema offers discounted pricing weekday afternoons at 12pm (ie weekday matinée sessions, Monday -
+          Friday) and all day on Mondays and Wednesdays.</p>
+      </div>
+      <div id="pricing">
+        <p>Standard Adult (STA)</p>
+        <p class="normalprice">$19.80</p>
+        <p class="discountprice">$14.00</p>
+        <p>First Class Adult (FCA)</p>
+        <p class="normalprice">$30.00</p>
+        <p class="discountprice">$24.00</p>
+        <p>Standard Concession (STP)</p>
+        <p class="normalprice">$17.50</p>
+        <p class="discountprice">$12.50</p>
+        <p>First Class Concession (FCP)</p>
+        <p class="normalprice">$27.00</p>
+        <p class="discountprice">$22.50</p>
+        <p>Standard Child (STC)</p>
+        <p class="normalprice">$15.30</p>
+        <p class="discountprice">$11.00</p>
+        <p>First Class Child (FCC)</p>
+        <p class="normalprice">$24.00</p>
+        <p class="discountprice">$21.00</p>
+      </div>
+    </article>
+
+    <div class="anchor" id="nowshowing"></div>
+    <article class="parallax">
+      <p>Now Showing</p>
+      <div id="movieinfo"></div>
+      <h2>Avengers: Endgame</h2>
+      <div id="poster"><img src="media/avenger.jpg" height="375px" width="250px" alt=""></div>
+      <h3>Rating : M</h3>
+      <table>
+        <tr>
+          <td>Monday</td>
+          <td>Not showing</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Not showing</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>21:00</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>21:00</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>21:00</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>18:00</td>
+        </tr>
+      </table>
+
+      <h2>Top End Wedding</h2>
+      <div id="poster"><img src="media/wedding.jpg" height="375px" width="250px" alt=""></div>
+      <h3>Rating : M</h3>
+      <table>
+        <tr>
+          <td>Monday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Not showing</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Not showing</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Not showing</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>15:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>15:00</td>
+        </tr>
+      </table>
+
+      <h2>Dumbo</h2>
+      <div id="poster"><img src="media/dumbo.jpg" height="375px" width="250px" alt=""></div>
+      <h3>Rating : PG</h3>
+      <table>
+        <tr>
+          <td>Monday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>12:00</td>
+        </tr>
+      </table>
+
+      <h2>The Happy Prince</h2>
+      <div id="poster"><img src="media/prince.jpg" height="375px" width="250px" alt=""></div>
+      <h3>Rating : MA15+</h3>
+      <table>
+        <tr>
+          <td>Monday</td>
+          <td>Not Showing</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Not Showing</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>21:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>21:00</td>
+        </tr>
+      </table>
+      </div>
+    </article>
+
+    <article class="parallax" id = sypnosis>
+      <h1>Avengers: Endgame</h1>
+      <p>The grave course of events set in motion by Thanos, that wiped out half the universe and fractured the Avengers ranks, compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films - Avengers: Endgame.</p>
+      <iframe width="720" height="480" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+  </main>
+
+  <footer>
+    <div>&copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script> Nguyen Hoang Tan, s3806867. Last modified: 19/4/2020
+      <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+    <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web
+      Programming course at RMIT University in Melbourne, Australia.</div>
+    <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
+  </footer>
+
+</body>
+
+</html>
