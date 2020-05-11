@@ -12,7 +12,7 @@
     Sat & Sun dis for only T00 test
     -->
     <?php
-        echo "<h1>Hello World! </h1>";
+        echo "<h1>Hello World! </h1>" 
         echo "<p>My name is $name.</p>";
     ?>
 </body>
