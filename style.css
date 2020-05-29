@@ -1,0 +1,330 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    border: 1px solid;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 30%;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none; /*Removing the underline from the link*/
+}
+
+.announcement{
+    color: #df6124;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+a:link {
+    color: cornflowerblue
+}
+
+a:visited {
+    color: purple
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: lightgreen;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    background-image: url(media/background.jpg);
+    padding: 2% 0;
+}
+
+#header {
+    top: 0;
+    position: relative;
+}
+
+header > img {
+    vertical-align: middle;
+}
+
+header > div {
+    display: inline-block;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    left: 40%;
+    font-weight: 600;
+    color: orange;
+    font-style: italic;
+    
+}
+#movies {
+    background-color:brown;
+    padding-bottom: 2%;
+  }
+.movie {
+height: 100%;
+padding: 1%;
+}
+.movie-info{
+    text-align: left;
+    font-size: 45px;
+    text-shadow: 1px 1px #000;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navigationbar {
+    top: 20px;
+    position: relative;
+}
+
+figure {
+	max-width: 320px;
+	max-height: 496px;
+	background: #fff;
+    overflow: hidden;
+}
+
+#poster {
+    height: 100%;
+    text-align: center;
+  }
+  #poster figure img {
+    max-width: 320px;
+    height: 496px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+  #poster figure:hover img {
+	opacity: .5;
+}
+
+.movie-info h3 {
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 1px 1px #000;
+  }
+  .movie-info h4 {
+    font-size: 30px;
+    line-height: 0;
+  }
+  .movie-info table tr {
+    border-bottom: 1px solid #000;
+  }
+  .movie-info table tr:last-child {
+    border-bottom: none;
+  }
+  .movie-info td + td {
+    padding-left: 2em;
+  }
+
+  .movie-caption {
+      position: relative;
+      left: 10%;
+  }
+
+.parallax {
+    background-image: url(media/parallax.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.synopsis-info{
+    margin-top: 50px;
+    display: none;
+    top: -60px;
+    position: relative;
+}
+
+article > p {
+    margin: 2%;
+    color: yellow;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > p:first-child {
+    font-size: 100px;
+    text-align: center;
+}
+
+article > div {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #DDDD;
+    font-size: 40px;
+   
+}
+
+#pricing {
+    color: yellow;
+}
+
+.normalprice {
+    font-size: 40px;
+    color: violet;
+}
+
+.discountprice {
+    font-size: 30px;
+    color: turquoise;
+}
+
+#poster {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    width: 40%;
+    position:relative;
+    top:60%;
+    left : 10%;
+  }
+
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: orangered;
+}
+
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.booking-part {
+    text-align: center;
+}
+
+.booking-day {
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking-day label {
+    padding: 0 5%;
+}
+
+#confirm {
+    margin-top: 20px;
+}
+
+#booking-section {
+    text-align: center;
+}
+
+#booking-section .booking-date{
+    user-select: none;
+    display:inline-block;
+}
+
+#booking-section .booking-date input {
+    display: none;
+}
+
+#booking-section .booking-date label{
+     /*
+    to clearly imply interactivity: */
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  height: 2em;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  /*
+    to vertically centre the text:
+  */
+  line-height: 2em;
+  margin: 0 0.5em;
+  border-radius: 0.5em;
+}
+
+#booking-section .booking-date input[type=radio]:checked + label {
+    color: #fff;
+    background-color: brown;
+}
+
+#booking-section .booking-date input[type=radio]:focus + label {
+    border: 2px dashed #444;
+}
+
+#booking-section .booking-date label:hover {
+    color: silver;
+    background-color: #fff;
+}
+
+.booking-date input:disabled + label {
+    color: silver;
+    cursor: unset;
+  }
+
+.inner label{
+    color: #DAA520;
+    font-size: large;
+}
+
+.seat-type{
+    color: #1E90FF;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#total{
+    color: #87CEFA;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 600px;
+}
+
+.booking-box span {
+    font-size: 30px;
+    color: #87CEFA;
+    margin-left: 30px;
+}
